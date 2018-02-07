@@ -1,0 +1,85 @@
+/* NetTalk menu css */
+
+.nt-menu-div {
+  border:0px solid #CCCCCC;
+  height:2.5em;
+  width:100%;
+  border-collapse: collapse;
+  margin:4px;  
+}
+
+.nt-menu{
+	padding: 0;
+	margin-bottom: 0.5em;
+	margin-top: 0;
+	list-style: none;
+	height: 2.2em;
+	border-collapse: collapse;
+}
+
+.nt-menu a:link, .nt-menu a:visited, .nt-menu a:hover, .nt-menu a:active {
+outline-color:-moz-use-text-color !important;
+outline-style:none !important;
+outline-width:0 !important;
+padding-left:10px;
+padding-right:10px;
+text-decoration:none;
+}
+
+.nt-menu-item a{
+color:#222!important;
+}
+
+.nt-menu > li {
+	float: left;
+	white-space: nowrap;
+}
+
+.nt-menu > li > a {
+	display: block;
+	min-width: 100px;
+	text-align:center;
+	padding: 5px 4%;
+	text-decoration: none;
+}
+
+
+
+.nt-menu > li ul {
+	display: none;
+	list-style: none;
+	position: absolute;
+	margin: -1px 0 0 0;
+	z-index: 90;
+	padding: 0;
+}
+
+.nt-menu > li ul a {
+	display: block;
+	width: auto;
+	min-width: 152px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+
+
+.nt-menu > li ul li ul {
+	margin: -29px 0 0 163px;
+	position: absolute;
+}
+
+.nt-menu span {
+	float: right;
+}
+
+.nt-menuleft{
+float:left;
+margin-right:20px;
+margin-top:10px;
+}
+.nt-menuright{
+float:right;
+margin-left:20px;
+margin-top:10px;
+}
